@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: azure;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    max-width: 100%;
+    background-color: rgb(186, 148, 227);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logo{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: azure;
+}
+
+#logo-text{
+    font-size: 3em;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: azure;
+}
+
+nav li{
+    padding: 10px;
+}
+
+.ion-icon{
+    font-size: 4em;
+}
+
+span{
+    color: rgb(97, 97, 211);
+}
+/* nav css ends here */
